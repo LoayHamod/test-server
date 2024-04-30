@@ -5,10 +5,10 @@ const Class = new mongoose.Schema({
         type: String,
         required: true,
     },
-    school: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'admin'
-    },
+    // school: {
+    //     type: mongoose.Schema.Types.ObjectId,
+    //     ref: 'admin'
+    // },
 }, { timestamps: true });
 
 module.exports = mongoose.model("class", Class);
