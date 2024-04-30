@@ -18,10 +18,10 @@ const Subject = new mongoose.Schema({
         ref: 'sclass',
         required: true,
     },
-    school: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'admin'
-    },
+    // school: {
+    //     type: mongoose.Schema.Types.ObjectId,
+    //     ref: 'admin'
+    // },
     teacher: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'teacher',
