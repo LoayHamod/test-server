@@ -17,7 +17,7 @@ app.use(cors(corsOptions));
 
 (async () => {
   try {
-    await db.mongoose.connect("mongodb+srv://serverAol:xqepEDi6K9xjB61X@aol.ttbhmkw.mongodb.net/AOL-db");
+    await db.mongoose.connect("mongodb+srv://serverAol:xqepEDi6K9xjB61X@aol.ttbhmkw.mongodb.net/AOL");
       console.log("Successfully connect to Database.");
   } catch (err) {
     console.error("Connection error", err);
