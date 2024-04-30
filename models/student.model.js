@@ -18,11 +18,11 @@ const Student = new mongoose.Schema({
         ref: 'sclass',
         required: true,
     },
-    school: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'admin',
-        required: true,
-    },
+    // school: {
+    //     type: mongoose.Schema.Types.ObjectId,
+    //     ref: 'admin',
+    //     required: true,
+    // },
     role: {
         type: String,
         default: "Student"
