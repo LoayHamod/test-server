@@ -14,11 +14,11 @@ const Complain = new mongoose.Schema({
         type: String,
         required: true
     },
-    // school: {
-    //     type: mongoose.Schema.Types.ObjectId,
-    //     ref: 'admin',
-    //     required: true,
-    // }
+    school: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'admin',
+        required: true,
+    }
 });
 
 module.exports = mongoose.model("complain", Complain);
